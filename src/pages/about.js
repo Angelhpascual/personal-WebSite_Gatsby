@@ -81,7 +81,7 @@ export default ({ data }) => {
             </a>{" "}            
               
             {" "}            
-            Studying at this institutions granted me the opportunity to gain
+            Studying at this institution granted me the opportunity to gain
             exposure to a spectrum of industries including healthcare, ed-tech
             and fintech. It allowed me to discover a lot about what parts of
             coding I enjoy and what parts I don't.
