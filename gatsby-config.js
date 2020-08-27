@@ -44,7 +44,7 @@ module.exports = {
         slug: `cristoRey`,
       },
       {
-        company: `SpanishGamingAcademy`,
+        company: `GamingAcademy`,
         link: `https://spanishgamingacademy.com/`,
         position: `Operations and Marketing`,
         startDate: `August, 2020`,
