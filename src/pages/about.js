@@ -64,7 +64,7 @@ export default ({ data }) => {
             &nbsp;developer discovering the ways of the <code>code</code>.
           </p>
           <p className="i-5">
-            I've had the privilege of studying Software Engineering at both the{" "}
+            I've had the privilege of studying computer applicactions development{" "}
             <Image
               width="20"
               height="24"
@@ -82,8 +82,8 @@ export default ({ data }) => {
               
             {" "}            
             Studying at this institution granted me the opportunity to gain
-            exposure to a spectrum of industries including healthcare, ed-tech
-            and fintech. It allowed me to discover a lot about what parts of
+            exposure to a spectrum of industries including healthcare and new technologies
+            . It allowed me tjo discover a lot about what parts of
             coding I enjoy and what parts I don't.
           </p>
           <p className="i-5">
