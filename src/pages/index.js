@@ -5,6 +5,7 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import Image from "react-bootstrap/Image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Typical from "react-typical"
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
@@ -16,7 +17,7 @@ export default ({ data }) => {
         <Image
           width="150"
           height="150"
-          fluid
+          fluids
           src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
           alt={dark ? "Darth Vader" : "R2-D2"}
         />
@@ -25,6 +26,24 @@ export default ({ data }) => {
             <b> Hey! I am looking for new opportunities :)</b>
           </p>
         )}
+
+        <p className="mt-2" style={{ fontSize: "1.1vmax" }}>
+          <Typical
+            steps={[
+              "May The Force Be With You.",
+              1000,
+              "“Do. Or do not. There is no try.” – Yoda",
+              1000,
+              "“It’s a trap!” – Admiral Ackbar",
+              1000,
+              "“This is a new day, a new beginning.” – Ahsoka Tano",
+              1000,
+            ]}
+            loop={Infinity}
+            wrapper="b"
+          />
+        </p>
+
         <div className="py-0 my-0">
           <h1 className="display-1" style={{ fontSize: "4.5vmax" }}>
             <span className="first-name">{firstName}</span>&nbsp;
