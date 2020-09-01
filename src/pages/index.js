@@ -45,6 +45,7 @@ export default ({ data }) => {
             wrapper="b"
           />
         </p>
+        <hr className="my-3 w-25" />
 
         <div className="py-0 my-0">
           <h1 className="display-1" style={{ fontSize: "4.5vmax" }}>
