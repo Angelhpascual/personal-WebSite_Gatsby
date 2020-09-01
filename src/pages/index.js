@@ -38,6 +38,8 @@ export default ({ data }) => {
               1000,
               "“This is a new day, a new beginning.” – Ahsoka Tano",
               1000,
+              "“Help me, Obi-Wan Kenobi. You’re my only hope.” — Leia Organa",
+              1000,
             ]}
             loop={Infinity}
             wrapper="b"
