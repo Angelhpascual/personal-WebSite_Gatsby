@@ -27,13 +27,7 @@ module.exports = {
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
-    designations: [
-      `Web Developer`,
-      `React Lover`,
-      `Code Jawa`,
-      `Jedi Master`,
-      
-    ],
+    designations: [`Web Developer`, `React Lover`, `Code Jawa`, `Jedi Master`],
     institutions: [
       {
         company: `Cristo Rey`,
@@ -51,7 +45,6 @@ module.exports = {
         endDate: `In progress`,
         slug: `spanishgamingacademy`,
       },
-      
     ],
     readingList: [
       {
@@ -69,12 +62,11 @@ module.exports = {
         author: `Herman Melville`,
         link: `https://es.wikipedia.org/wiki/Moby-Dick`,
       },
-      
     ],
     showsList: [
       {
         title: `Game of Thrones`,
-        author: `Lars Von Trier`,
+        author: `David Benioff`,
         link: `https://es.wikipedia.org/wiki/Game_of_Thrones`,
       },
       {
@@ -87,7 +79,6 @@ module.exports = {
         author: `George Lucas, Dave Filoni`,
         link: `https://www.imdb.com/title/tt0458290/`,
       },
-      
     ],
     moviesList: [
       {
